@@ -1,0 +1,164 @@
+header { display: flex; align-items: center; height: 70px; background-color: #fff; }
+header .left-content { display: flex; align-items: center; justify-content: flex-start; }
+header .left-content .list-inline-item { padding: 9px 15px 9px 15px; }
+header .left-content .list-inline-item a { font-family: Montserrat; font-size: 14px; font-weight: 400; color: #000000; text-align: center; text-transform: uppercase; text-decoration: none; line-height: 17.07px; }
+header .left-content .list-inline-item a:hover { font-weight: 600; }
+header .center-content { display: flex; align-items: center; justify-content: center; }
+header .right-content { display: flex; align-items: center; justify-content: flex-end; }
+header .right-content .list-inline-item { padding: 3px 4px 3px 4px; }
+header .right-content .list-inline-item:last-child { padding: 3px 15px 3px 4px; }
+header .right-content .list-inline-item:last-child select { font-family: Montserrat; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: center; border: 1px solid #F2F2F2; border-radius: 35px; }
+
+#section-announcement { display: flex; align-items: center; height: 50px; background-color: #F2F2F2; padding-left: 15px; padding-right: 15px; }
+#section-announcement .col { display: flex; flex-direction: row; align-items: center; }
+#section-announcement .col:first-child { justify-content: flex-start; }
+#section-announcement .col:last-child { justify-content: flex-end; }
+#section-announcement .col:not(:first-child):not(:last-child) { justify-content: center; }
+#section-announcement .col img { width: 30px; height: 30px; margin-right: 15px; }
+#section-announcement .col p { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; color: #000; margin: 0; }
+
+#section-banner-slider { background-color: #EDE9DD; height: 650px; }
+#section-banner-slider #banner-slider .owl-item { height: 650px; }
+#section-banner-slider #banner-slider .owl-item .item .left-image-overlay { position: absolute; top: 0; left: 0; width: 60%; height: 100%; background-image: url(/ehrlich/assets/images/banner-left-overlay.png); background-repeat: no-repeat; background-size: cover; z-index: 2; }
+#section-banner-slider #banner-slider .owl-item .item .right-image-overlay { position: absolute; top: 0; right: 0; width: 60%; height: 100%; background-image: url(/ehrlich/assets/images/banner-right-overlay.png); background-repeat: no-repeat; background-size: cover; }
+#section-banner-slider #banner-slider .owl-item .item .left-color-overlay { background: linear-gradient(270deg, #f1ede1 0%, rgba(237, 233, 221, 0) 8%); position: absolute; width: 60%; height: 100%; top: 0; left: 0; z-index: 2; }
+#section-banner-slider #banner-slider .owl-item .item .right-color-overlay { background: linear-gradient(90deg, #f1ede1 0%, rgba(237, 233, 221, 0) 100%); position: absolute; width: 40%; height: 100%; top: 0; right: 0; z-index: 1; }
+#section-banner-slider #banner-slider .owl-item .item .content { z-index: 3; position: absolute; top: 50%; transform: translateY(-50%); right: 0; width: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; }
+#section-banner-slider #banner-slider .owl-item .item .content img { width: 644px; height: 446px; }
+#section-banner-slider #banner-slider .owl-item .item .content a { font-family: Montserrat; font-size: 36px; font-weight: 600; line-height: 43.88px; text-align: center; color: #000; text-transform: uppercase; box-shadow: 0px 4px 4px 0px #00000040; background: #FFFFFF; padding: 15px 30px 15px 30px; border-radius: 0px; transition: 0.3s ease-in-out; }
+#section-banner-slider #banner-slider .owl-item .item .content a:hover { background-color: #000; color: #fff; }
+#section-banner-slider #banner-slider .owl-nav .owl-prev,
+#section-banner-slider #banner-slider .owl-nav .owl-next { position: absolute; top: 50%; transform: translateY(-50%); }
+#section-banner-slider #banner-slider .owl-nav .owl-prev { left: 10px; }
+#section-banner-slider #banner-slider .owl-nav .owl-next { right: 10px; }
+#section-banner-slider #banner-slider .owl-dots { position: absolute; bottom: 15px; left: 50%; transform: translateX(-50%); }
+#section-banner-slider #banner-slider .owl-dots .owl-dot.active span { width: 10px; height: 10px; margin: 5px 7px; background: #FFFFFF; display: block; transition: opacity .2s ease; border-radius: 30px; }
+#section-banner-slider #banner-slider .owl-dots .owl-dot span { width: 10px; height: 10px; margin: 5px 7px; background: #FFFFFF80; display: block; transition: opacity .2s ease; border-radius: 30px; }
+
+#section-site-wide-deals { background-color: #FFFFFF; padding: 42px; }
+#section-site-wide-deals .col { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+#section-site-wide-deals .col .price { font-family: Montserrat; font-size: 32px; font-weight: 600; line-height: 39.01px; text-align: center; margin-right: 10px; }
+#section-site-wide-deals .col span:not(.price) { font-family: Montserrat; font-size: 18px; font-weight: 800; line-height: 21.94px; text-align: center; }
+#section-site-wide-deals .col .description { font-family: Montserrat; font-size: 10px; font-weight: 400; line-height: 12.19px; text-align: center; text-transform: uppercase; margin-top: 4px; }
+#section-site-wide-deals .col a.cta-button { font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: center; background-color: #000; color: #fff; text-transform: uppercase; padding: 10px 20px 10px 20px; border-radius: 0px; }
+#section-site-wide-deals .col a.cta-button:hover { background-color: #fff; color: #000; border: 1px solid #000; }
+
+#section-vip-exclusive { position: relative; padding: 15px; }
+#section-vip-exclusive .image-overlay { position: absolute; top: 0; left: 0; width: 45%; height: 100%; background-image: url(/ehrlich/assets/images/outer-space.png); background-repeat: no-repeat; background-size: cover; }
+#section-vip-exclusive .color-overlay { background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) -25%, #000000 50%, #000000 0%); position: absolute; width: 100%; height: 100%; top: 0; right: 0; z-index: 1; }
+#section-vip-exclusive .col { display: flex; justify-content: center; align-items: center; flex-direction: column; z-index: 2; }
+#section-vip-exclusive .title p { font-family: Montserrat; font-size: 32px; font-weight: 800; line-height: 39.01px; text-align: left; text-transform: uppercase; color: #fff; margin: 0; }
+#section-vip-exclusive .description p { font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: left; text-transform: uppercase; color: #fff; margin: 0; }
+#section-vip-exclusive .cta-button a { background-color: #fff; color: #000; padding: 10px 20px 10px 20px; font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: center; text-transform: uppercase; border-radius: 0px; }
+#section-vip-exclusive .cta-button a:hover { background-color: #000; color: #fff; border: 1px solid #fff; }
+
+#section-trending { padding: 40px; }
+#section-trending .heading { font-family: Montserrat; font-size: 36px; font-weight: 800; line-height: 43.88px; text-align: center; text-transform: capitalize; padding: 10px 20px 20px 20px; }
+#section-trending .subheading { font-family: Montserrat; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: center; padding: 10px 20px 20px 20px; }
+#section-trending .trending-grid .col { display: flex; flex-direction: column; justify-content: flex-start; align-items: center; margin-bottom: 30px; }
+#section-trending .trending-grid .col img { width: 95%; margin-bottom: 10px; }
+#section-trending .trending-grid .col .title { font-family: Montserrat; font-size: 24px; font-weight: 600; line-height: 29.26px; text-align: center; text-transform: uppercase; }
+#section-trending .hashtags .col { display: flex; flex-direction: row; justify-content: center; align-items: center; }
+#section-trending .hashtags .col .wrapper { padding: 10px 20px 10px 20px; border-radius: 50px; border: 1px solid #000; margin: 10px; }
+#section-trending .hashtags .col .wrapper p { font-family: Montserrat; font-size: 14px; font-weight: 600; line-height: 17.07px; text-align: center; margin: 0; }
+
+#section-recently-bought { padding: 40px; }
+#section-recently-bought .heading { font-family: Montserrat; font-size: 36px; font-weight: 800; line-height: 43.88px; text-align: center; text-transform: capitalize; padding: 10px 20px 20px 20px; }
+#section-recently-bought .recently-bought-grid .col { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; margin-bottom: 30px; }
+#section-recently-bought .recently-bought-grid .col .wrapper { position: relative; margin-bottom: 10px; }
+#section-recently-bought .recently-bought-grid .col img { width: 95%; height: auto; }
+#section-recently-bought .recently-bought-grid .col .btn-buy-wrapper { transition: .5s ease; opacity: 0; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -ms-transform: translate(-50%, -50%); text-align: center; }
+#section-recently-bought .recently-bought-grid .col .btn-buy-wrapper a { font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: center; text-transform: uppercase; padding: 10px 50px; background-color: #000; color: #fff; text-decoration: none; border-radius: 35px; }
+#section-recently-bought .recently-bought-grid .col .wrapper:hover img { opacity: 0.3; }
+#section-recently-bought .recently-bought-grid .col .wrapper:hover .btn-buy-wrapper { opacity: 1; }
+#section-recently-bought .recently-bought-grid .col .title { font-family: Montserrat; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: left; }
+#section-recently-bought .recently-bought-grid .col .price .sale-price { font-family: Montserrat; font-size: 14px; font-weight: 800; line-height: 17.07px; text-align: left; color: #C1272D; margin-right: 10px; }
+#section-recently-bought .recently-bought-grid .col .price .regular-price { font-family: Montserrat; font-size: 14px; font-weight: 600; line-height: 17.07px; text-align: left; color: #000; }
+#section-recently-bought .recently-bought-grid .col .price .regular-price.strike { text-decoration: line-through; }
+
+#section-insta { padding: 40px; background-color: #F2F2F2; }
+#section-insta .heading { font-family: Montserrat; font-size: 36px; font-weight: 800; line-height: 43.88px; text-align: center; text-transform: capitalize; padding: 10px 20px 20px 20px; }
+#section-insta .subheading { font-family: Montserrat; font-size: 14px; font-weight: 400; line-height: 17.07px; text-align: center; padding: 10px 20px 20px 20px; }
+#section-insta .insta-grid .col { display: flex; flex-direction: column; justify-content: flex-start; align-items: flex-start; margin-bottom: 30px; }
+#section-insta .insta-grid .col img { width: 95%; margin-bottom: 10px; }
+#section-insta .btn-all-posts-wrapper { text-align: center; }
+#section-insta .btn-all-posts-wrapper a { font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: center; text-transform: uppercase; padding: 10px 20px; background-color: #000; color: #fff; border-radius: 0px; }
+#section-insta .btn-all-posts-wrapper a:hover { background-color: #fff; color: #000; border: 1px solid #000; }
+
+#section-newsletter { background-color: #000; padding: 18px 50px; }
+#section-newsletter .title-wrapper { display: flex; justify-content: center; }
+#section-newsletter .title-wrapper .title h3 { font-family: Montserrat; font-size: 32px; font-weight: 800; line-height: 39.01px; text-align: left; color: #fff; text-transform: uppercase; margin: 0; }
+#section-newsletter .form-wrapper { display: flex; justify-content: flex-start; align-items: center; }
+#section-newsletter .form-wrapper .input-group { width: 80%; }
+#section-newsletter .form-wrapper .input-group input { background-color: #F2F2F2; border: none; border-radius: 0; padding: 5px 15px; }
+#section-newsletter .form-wrapper .input-group button { width: 35px; height: 35px; display: flex; justify-content: center; align-items: center; background-color: #fff; border: none; border-radius: 0px; padding: 5px; }
+
+footer { background-color: #fff; padding: 50px 30px; }
+footer #footer-info .footer-nav { display: flex; flex-direction: row; }
+footer #footer-info .footer-nav div { padding-right: 20px; }
+footer #footer-info .footer-nav div .heading { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px; margin: 0; }
+footer #footer-info .footer-nav div .footer-links { list-style-type: none; padding: 0; }
+footer #footer-info .footer-nav div .footer-links li { padding: 10px; }
+footer #footer-info .footer-nav div .footer-links li a { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; color: #000; text-transform: capitalize; text-decoration: none; }
+footer #footer-info .footer-nav div .footer-links li a:hover { text-decoration: underline; }
+footer #footer-info .footer-socials .heading { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px; margin: 0; }
+footer #footer-info .footer-socials .footer-links { list-style-type: none; padding: 0; display: flex; flex-direction: row; align-items: center; }
+footer #footer-info .footer-socials .footer-links li { margin: 0px 10px; }
+footer #footer-info .footer-socials .footer-links li img { width: 20px; height: 20px; }
+footer #footer-info .footer-payments .heading { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; padding: 10px; margin: 0; text-transform: uppercase; }
+footer #footer-info .footer-payments .footer-links { list-style-type: none; padding: 0; display: flex; flex-direction: row; align-items: center; }
+footer #footer-info .footer-payments .footer-links li { margin: 0px 10px; }
+footer #footer-info .footer-payments .footer-links li img { width: 37.5px; height: 25px; }
+
+footer #footer-copyright { margin-top: 20px; }
+footer #footer-copyright .col { display: flex; flex-direction: row; align-items: flex-end; justify-content: space-between; }
+footer #footer-copyright .col p { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; margin: 0; }
+
+#section-new-arrivals { position: relative; height: 400px; }
+#section-new-arrivals .image-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(/ehrlich/assets/images/new-arrivals-bg.png); background-repeat: no-repeat; background-size: cover; }
+#section-new-arrivals .color-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(90deg, #FFCB7C00 0%, #b36b00 70%); opacity: 0.4; }
+#section-new-arrivals .content { position: absolute; top: 0; right: 0; width: 45%; height: 100%; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+#section-new-arrivals .content h2 { font-family: Montserrat; font-size: 86px; font-weight: 800; line-height: 86px; text-align: left; text-transform: uppercase; color: #fff; margin-bottom: 20px; }
+#section-new-arrivals .content p { font-family: Montserrat; font-size: 28px; font-weight: 600; line-height: 34.13px; text-align: left; color: #fff; margin: 0; }
+#section-new-arrivals .content a { padding: 10px 20px; background-color: #fff; border-radius: 0px; font-family: Montserrat; font-size: 18px; font-weight: 600; line-height: 21.94px; text-align: center; text-transform: uppercase; margin-top: 30px; }
+#section-new-arrivals .content a:hover { background-color: #000; color: #fff; }
+#section-new-arrivals .left-model-image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(/ehrlich/assets/images/model-1.png); background-repeat: no-repeat; background-size: contain; background-position: 12% 100%; }
+#section-new-arrivals .right-model-image { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(/ehrlich/assets/images/model-2.png); background-repeat: no-repeat; background-size: contain; background-position: 42% 100%; }
+
+#cartModal { position: absolute; top: 55px; right: 125px; width: 300px; background-color: #fff; border: 1px solid #d3d3d3; padding: 20px; z-index: 3; display: none; }
+#cartModal .cart-modal-body .item { display: flex; flex-direction: row; justify-content: flex-start; align-items: flex-start; border-bottom: 1px solid #d3d3d3; margin-bottom: 10px; }
+#cartModal .cart-modal-body .item .item-img { margin-right: 10px; }
+#cartModal .cart-modal-body .item .item-img img { width: 70px; }
+#cartModal .cart-modal-body .item .item-details p { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: capitalize; padding: 10px; margin: 0; }
+#cartModal .cart-modal-footer .wrapper { display: flex; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 10px; }
+#cartModal .cart-modal-footer .wrapper a, #cartModal .cart-modal-footer .wrapper span { font-family: Montserrat; font-size: 12px; font-weight: 600; text-align: center; color: #000; text-decoration: none; text-transform: capitalize; }
+#cartModal .cart-modal-footer .btn-checkout { display: block; font-family: Montserrat; font-size: 14px; font-weight: 600; text-align: center; color: #fff; text-transform: uppercase; background: #000; border-radius: 0px; text-decoration: none; padding: 12px 18px; margin-top: 10px; }
+
+#section-cart { padding: 30px; }
+#section-cart .heading-wrapper { display: flex; flex-direction: row; justify-content: space-between; align-items: flex-start; margin-bottom: 30px; }
+#section-cart .heading-wrapper { display: flex; flex-direction: row; justify-content: space-between; align-items: center; }
+#section-cart .heading-wrapper h3 { font-family: Montserrat; font-size: 32px; font-weight: 800; line-height: 39.01px; text-align: left; text-transform: uppercase; color: #000; }
+#section-cart .heading-wrapper p { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px 0px; margin: 0; }
+#section-cart .heading-wrapper p a { color: #000; }
+#section-cart .cart-items .heading { display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-bottom: 1px solid #d3d3d3; margin-bottom: 30px; }
+#section-cart .cart-items .heading p { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px 0px; margin: 0; }
+#section-cart .cart-items .item { display: flex; flex-direction: row; justify-content: space-between; align-items: center; border-bottom: 1px solid #d3d3d3; padding-bottom: 15px; }
+#section-cart .cart-items .item .left-content { display: flex; }
+#section-cart .cart-items .item .left-content .item-details { display: flex; flex-direction: column; justify-content: space-between; }
+#section-cart .cart-items .item .left-content .item-details a { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; color: #000; padding: 10px; text-transform: capitalize; }
+#section-cart .cart-items .item .item-image { width: 85px; margin-right: 20px; }
+#section-cart .cart-items .item .item-name { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px; margin: 0; }
+#section-cart .cart-items .item .item-price { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px; margin: 0; }
+#section-cart .summary-heading p { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px; margin: 0; text-align: center; }
+#section-cart .summary-wrapper { border: 1px solid #000; padding: 15px; display: flex; flex-direction: column; justify-content: center; }
+#section-cart .summary-wrapper .subtotal { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; color: #000; margin: 0; display: flex; justify-content: space-between; border-bottom: 1px solid #d3d3d3; }
+#section-cart .summary-wrapper .total { font-family: Montserrat; font-size: 12px; font-weight: 600; line-height: 14.63px; text-align: left; text-transform: uppercase; margin-top: 16px; display: flex; justify-content: space-between; }
+#section-cart .summary-wrapper .total p { margin: 0; }
+#section-cart .checkout-btns .btn-guest { display: block; font-family: Montserrat; font-size: 14px; font-weight: 500; line-height: 21.94px; text-align: center; text-transform: uppercase; padding: 10px 20px; background-color: #000; color: #fff; border-radius: 6px; margin: 10px 0px; text-decoration: none; }
+#section-cart .checkout-btns .btn-signin { display: block; font-family: Montserrat; font-size: 14px; font-weight: 500; line-height: 21.94px; text-align: center; text-transform: uppercase; padding: 10px 20px; background-color: #000; color: #fff; border-radius: 6px; margin: 10px 0px; text-decoration: none; }
+#section-cart .checkout-btns .btn-paypal { display: block; font-family: Montserrat; font-size: 14px; font-weight: 500; line-height: 21.94px; text-align: center; text-transform: uppercase; padding: 10px 20px; background-color: #fff; color: #000; border: 1px solid #000; border-radius: 6px; margin: 10px 0px; text-decoration: none; }
+#section-cart .cart-footer { margin-top: 20px; }
+#section-cart .cart-footer p { font-family: Montserrat; font-size: 12px; font-weight: 400; line-height: 14.63px; text-align: left; text-transform: uppercase; padding: 10px 0px; margin: 0; }
+#section-cart .cart-footer .footer-links { list-style-type: none; padding: 0; display: flex; flex-direction: row; align-items: center; }
+#section-cart .cart-footer .footer-links li { margin: 0px 10px; }
+#section-cart .cart-footer .footer-links li img{ width: 37.5px; height: 25px; }
